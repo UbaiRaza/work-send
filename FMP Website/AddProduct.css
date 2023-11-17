@@ -1,0 +1,37 @@
+.formmain{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.paper{
+    width: 500px;
+    height: auto;
+    padding: 30pxX;  
+    background-color: white;
+    text-align: center;
+}
+.inp{
+    width: 450px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.btn{
+    width: 450px;
+    padding: auto;
+    padding: 20px;
+    color: white;
+    font-size: large;
+    margin: 20px;
+background-color: black;
+border: none;
+outline: none;    
+}
+.padingwala{
+    padding: 20px;
+}

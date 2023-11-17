@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <link rel="stylesheet" href="AddProduct.css">
+</head>
+<body>
+    <div class="formmain">
+        <div class="paper">
+            <h1 >Add Product</h1>
+            <div>
+                <div class="padingwala">
+                <input class="inp" type="text" placeholder="Enter Your Product name" name="" id="productname">
+                </div>
+                <div class="padingwala">
+                    <input class="inp" type="text" placeholder="Enter Your Product pries" name="" id="productp">
+                </div>
+                <div class="padingwala">
+                    <input class="inp" type="text" placeholder="Enter Your Product image URL" name="" id="producti">
+                </div>
+                <br><br>
+                <button onclick="getValue()" class="btn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="Product.js"></script>
+</body>
+</html>

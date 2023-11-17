@@ -1,0 +1,102 @@
+@font-face {
+    font-family: maven !important;
+    src: url("./fonts/MavenPro-VariableFont_wght.ttf") !important;
+  }  
+  * {
+    font-size: x-large;
+    font-family: maven !important;
+  }
+  a:hover {
+    transition: 1.2s;
+    color: white !important;
+    background-color: black !important;
+  }
+  .ba {
+    font-size: xx-large !important;
+  }
+  .not-hover {
+    background-color: #d6ff38 !important;
+  }
+  .not-hover:hover {
+    color: black !important;
+    background-color: #d6ff38 !important;
+  }
+  .asa {
+    text-decoration: double;
+    color: black !important;
+  }
+  .asa:hover {
+    color: black !important;
+    background-color: transparent !important;
+  }
+.zx{
+    background-color: black !important;
+} 
+h1{
+  background-color: rgb(119, 178, 119);
+} 
+footer{
+  background-color: #333333;
+  display: flex;
+  flex-wrap:wrap;
+  margin-top: auto;
+  padding: 60px 11%;
+}
+ul{
+  list-style: none;
+}
+.foter-col{
+  width: 25%;
+
+}
+.foter-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 22px;
+  color: #f1bc0d;
+  text-transform: capitalize;
+
+}
+.foter-col h4::before{
+  content: ' ';
+  position: absolute;
+  left: 30% !important;
+  bottom: -6px;
+  background-color: #27c0ac;
+  /* height: 2px;
+  width: 40px; */
+}
+.heading{
+  background-color: var(--bg-overlay-color);}
+ul li:not(:last-child){
+  margin-bottom: 8px;
+}
+ul li a{
+  display: block;
+  font-size: 19px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.4s;
+}
+ul li a:hover{
+  color: white;
+  padding-left: 2px;
+}
+@media(max-width:740px){
+  .foter-col{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .oter-col h4::before{
+    all: unset;
+
+  }
+}
+@media (max-width:555px) {
+  .foter-col{
+    width: 100%;
+  }
+}
